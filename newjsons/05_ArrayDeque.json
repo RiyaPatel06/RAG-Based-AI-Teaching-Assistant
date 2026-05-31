@@ -1,0 +1,389 @@
+{
+    "chunks": [
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 0.0,
+            "end": 20.96,
+            "text": " Hello Friends, Welcome Back!  In this video, we are going to talk about the RA-DQ class.  The RA-DQ class is like you saw in the collection hierarchy,  It implements the DQ interface.  And that DQ interface was extending the Q interface."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 20.96,
+            "end": 46.260000000000005,
+            "text": " Meaning, all the methods of Q interface came into DQ.  And when RA-DQ implements the DQ interface,  It implements all the methods of Q interface and all the methods of DQ interface.  That's why, it is said that RA-DQ implements both the Q interface and the DQ interface.  The first thing that it does is to extend the Q interface."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 46.260000000000005,
+            "end": 75.12,
+            "text": " That's why, there will be methods of Q interface and DQ interface in RA-DQ.  For example, in the collection, we have to make the object of the classes to use the link-less and the R-L-Less.  Similarly, if you want to use RA-DQ here, you will have to make an object of it.  AD1 equals to New RA-DQ.  Okay, so here I have made it an object."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 75.12,
+            "end": 89.38000000000001,
+            "text": " After that, using the reference,  AD1 dot,  As you will say, you can see here that AD method is taking an object.  Then add all.  Meaning, you can add another collection here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 89.38000000000001,
+            "end": 106.94,
+            "text": " You can see here that the collection is accepting.  You can see here that add first and add last.  We don't have a method here, which was in our RA-L-Less and link-less.  There, you can add an add method based on the index.  So, here there is no option."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 106.94,
+            "end": 123.14,
+            "text": " Based on the index, you can't perform any operation if you are using RA-DQ.  The index-based accessing is not allowed here.  Okay, so here I will add a data.  This is 100.  AD1 dot add,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 124.14,
+            "end": 139.64,
+            "text": " 200.  And here I will print it, the collection which I have made, RA-DQ's collection.  So, here check once.  You can see here that 100, 200.  So, the data is being added here in the collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 139.64,
+            "end": 151.83999999999997,
+            "text": " Another very important thing about RA-DQ is that  RA-DQ internally follows double ended Q.  Which we call RA-DQ.  So, it will work like this.  Why?"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 151.83999999999997,
+            "end": 163.34,
+            "text": " In Java, in XE programming,  you can perform insertion and deletion operation from one side.  You can perform only from one side.  Why?  For example, you can see that in the real world,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 163.34,
+            "end": 175.34,
+            "text": " if there is a queue to take something,  then only people can come from one side in that queue.  And no one can come from the middle.  Because in the real world,  because you are not allowed to come from the middle,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 175.34,
+            "end": 189.34,
+            "text": " even in programming,  no one can come from the middle of the index,  in their collection.  Okay, now here RA-DQ uses double ended Q internally.  So, what will happen here?"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 189.34,
+            "end": 204.34,
+            "text": " If you have front end and rear end,  then you can perform insertion and deletion operation from here also.  And you can perform from here also.  You can add data from here also.  And you can insert data from here also."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 204.34,
+            "end": 220.34,
+            "text": " So, if you are using RA-DQ,  because it can use internally double ended Q,  then if you want to perform insertion and operation in your collection,  whether it is from front end or rear end,  then definitely you can use RA-DQ."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 220.34,
+            "end": 231.34,
+            "text": " And there is a light weighted too.  Like in English, our notes were created.  No notes will be created here.  This will work as RA-Dynamic,  its data structure."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 231.34,
+            "end": 246.34,
+            "text": " So, you can perform insertion and operation easily here,  in your collection, from rear end also and from front end also.  From both ends, you can add data here.  But the index based axing is not allowed.  You cannot add from the middle,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 246.34,
+            "end": 258.34000000000003,
+            "text": " because this is also a Q.  In Q, you cannot insert data from the middle.  It is not allowed here also.  Because internally, it is double ended Q,  so from front end and rear end,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 258.34000000000003,
+            "end": 270.34000000000003,
+            "text": " from there you can add data here.  Like you saw here also.  We have some methods here.  AD1.Add  Add first and add last."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 270.34000000000003,
+            "end": 280.34,
+            "text": " You can see here.  I will add some data here.  Maybe 10.  Add last.  AD1.Add"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 280.34,
+            "end": 290.34,
+            "text": " Last.  You can add any data here.  I have added here.  Maybe 20.  Then you can print your collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 290.34,
+            "end": 302.34,
+            "text": " System.out.println  Whatever collection I have made in the name of AD1,  you can print it here.  You can see here,  10 added in front end,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 302.34,
+            "end": 312.34,
+            "text": " and 20 added in front end.  You can see here.  Another important thing is,  I will check if duplicates are allowed.  AD1.Add"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 312.34,
+            "end": 322.34,
+            "text": " Like you will use AD method,  automatically the data will be in the rear end.  I will add 200 here.  After 200,  another 200."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 322.34,
+            "end": 332.34,
+            "text": " There was an object in my collection called 200.  I added it once again.  I will check if it is adding in the collection.  200, 200, 200,  200 is added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 332.34,
+            "end": 342.34,
+            "text": " So, if you are using  ADQ here,  then duplicates are allowed.  But if you want to make duplicates  object, then you can add it here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 342.34,
+            "end": 352.34,
+            "text": " I will check some other things here.  AD1.Add  Here I  put string type object.  There is no error here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 352.34,
+            "end": 362.34,
+            "text": " So, whatever data was here,  it was the same data.  Integer type.  So, it was adding.  Here, AD"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 362.34,
+            "end": 372.34,
+            "text": " I will print my collection once.  I will check if the string type of data  is adding in the same collection.  So, I added it here.  And I will try to print whatever is here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 372.34,
+            "end": 384.34,
+            "text": " I will execute it once.  You can see that  PW is also adding here.  So, it can store  both homogenous type of data"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 384.34,
+            "end": 394.34,
+            "text": " as well as the heterogeneous type of data.  So, here you can add duplicates  and mixers.  You can add data too.  And it will be suitable for you"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 394.34,
+            "end": 404.34,
+            "text": " whenever you have to perform  insertion operation at the front end  and at the rear end.  In the beginning or at the end,  if you want to add data, then you can use"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 404.34,
+            "end": 414.34,
+            "text": " ADQ here.  So, here is another important method.  You have to observe.  Offer method.  I will offer something here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 414.34,
+            "end": 424.34,
+            "text": " Similarly,  we have  offer  offer first and offer  last. I will add it at the end."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 424.34,
+            "end": 434.34,
+            "text": " You can add anything.  N  And maybe,  okay. And here  AD."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 434.34,
+            "end": 444.34,
+            "text": " offer  first.  I will add it here.  1.  I will print it once."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 444.34,
+            "end": 454.34,
+            "text": " I will check if there are any changes  in the collection.  So, here as soon as I print it  you can see,  first it has been added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 454.34,
+            "end": 464.34,
+            "text": " 500 has also been added.  And at the end 10 has also been added.  So, the way the  ad method is working,  the same way the offer method is also working."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 464.34,
+            "end": 474.34,
+            "text": " Like, if you add any data using the  ad method, automatically  it is added in the rear end of the collection.  So, we used the offer method.  Before that, it was PW."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 474.34,
+            "end": 484.34,
+            "text": " After that, automatically 500 has been added.  For example, the offer last,  at the end of the collection,  you can see 10.  And the offer first,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 484.34,
+            "end": 494.34,
+            "text": " for example, the ad first is working,  the same way the offer first is also working here.  And one is adding there in the collection.  So, for example,  ad first and ad last is working."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 494.34,
+            "end": 504.34,
+            "text": " Similarly, the offer first  and offer last method is also working.  So, what is the difference?  The difference is that the  offer method you will use,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 504.34,
+            "end": 514.3399999999999,
+            "text": " whenever you want to insert any data  in your collection,  it is not mandatory, it is not compulsory  that the data is added in your collection.  The high possibility is that"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 514.3399999999999,
+            "end": 524.3399999999999,
+            "text": " whatever you want to add in the data,  it will be rejected.  For example, if you are  attending any company, you have  2 or 3 offers, it will not be"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 524.3399999999999,
+            "end": 534.34,
+            "text": " that you accept 3 offers.  So, I am trying to say that  whenever you are  offering something, it is not compulsory  that you accept the offer,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 534.34,
+            "end": 544.34,
+            "text": " you can also reject the offer.  So, here, in the collection,  using the offer method,  if you try to add some data,  then the possibility is that"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 544.34,
+            "end": 554.34,
+            "text": " the data is added.  And it can also be that the data is not added.  The data of the compulsory is added.  So, here the offer may get rejected.  If you want to use the offer method"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 554.34,
+            "end": 564.34,
+            "text": " to perform the insertion operation, you can do it.  But it is not that  the data will be added.  The possibility is that the data is not added.  So, we have such data"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 564.34,
+            "end": 574.34,
+            "text": " that it is not important. If the data is added  in the collection, then it is fine.  If the data is not added, then it is fine.  So, in this case, you can use  the offer method here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 574.34,
+            "end": 584.34,
+            "text": " The one who will perform the insertion operation,  but he can perform the insertion operation  and can also not.  Offer may get rejected also  in case of offer method."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 584.34,
+            "end": 594.34,
+            "text": " The conclusion here is that  the DQ interface is directly implemented.  The DQ interface is extended.  The Q interface is extended.  And internally, it follows"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 594.34,
+            "end": 604.34,
+            "text": " the double ended Q.  This will make it efficient  whenever you want to perform the insertion operation  at the rear end  as well as at the front end."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 604.34,
+            "end": 614.34,
+            "text": " And it is very lightweight.  There is no concept of nodes here.  And it is dynamic. In nature,  the restriction of the index is not at all.  And here, the duplicates"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 614.34,
+            "end": 624.34,
+            "text": " are also allowed. You can  store homogeneous and heterogeneous type of data  here.  And you can also give the duplicate value here.  Index based axing is not allowed here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 624.34,
+            "end": 634.34,
+            "text": " Because  because you can never add any  data in the index base.  In normal Q, you can add  only one end of the data from the rear end."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 634.34,
+            "end": 644.34,
+            "text": " But here, because it is  following the double ended Q,  you can add data from the rear end.  But not from the index base.  You cannot add data from the middle."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 644.34,
+            "end": 652.34,
+            "text": " So, this is it.  We will try to know more about our  RAIDQ collection  and other classes."
+        }
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "video_number": "003",
+    "video_title": "Abstract Vs Interface ",
+    "full_transcript": " So we have seen what is the interface and what is the requirement of the interface. But when we look at the interface, the similarities are with the abstract class. So what is the difference? Whenever we want to create a class where we want to create normal methods and abstract methods, we will use the abstract class. Because we are allowed to create normal methods there. Apart from that, there is no compulsion that every method should be public abstract, but where you want abstract methods, you will have to use the abstract keyword. So this was the method. If we talk about variables, there is no compulsion that all those variables should be public static final. You can have normal variables as well, the value of which can be changed. But in terms of interface, it will not be there later. But remember that normal variables can also be there in the abstract class. And we can write constructors in the abstract class. Now here, actually, the object is not the object of the abstract class. But still, if you remember when we talked about the super, or the inheritance, then there, when you call the construct of a subclass, it calls the construct of superclass as well. Even if it is the abstract class. Now let's focus on the interface. Now the important thing in the interface is that you can remove that object. The common thing is that by default, every method in the interface will be public and abstract. So you cannot have normal methods that are possible in the abstract class. And all the methods have public abstract, so there is no need to write, but it will work. And the modified method that we used in public, it works. But then, apart from the public, if you want it to be private, predicted, final, static, synchronized, native, strict, FPO, it is not possible with the methods. And as we discussed earlier, that variables are by default public, static, and final. We cannot use them without using the final, so you cannot change it basically. And as we discussed earlier, there is no constrictor here. And a difference here, in the abstract class, we use extents. If we extend the abstract class, then we use extents there. And in the interface, if we are using a class interface or implementing it, we use implements there.",
+    "chunks": [
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 0.0,
+            "end": 10.76,
+            "text": " So we have seen what is the interface and what is the requirement of the interface."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 10.76,
+            "end": 15.76,
+            "text": " But when we look at the interface, the similarities are with the abstract class."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 15.76,
+            "end": 17.26,
+            "text": " So what is the difference?"
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 17.26,
+            "end": 26.96,
+            "text": " Whenever we want to create a class where we want to create normal methods and abstract methods, we will use the abstract class."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 26.96,
+            "end": 29.96,
+            "text": " Because we are allowed to create normal methods there."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 29.96,
+            "end": 40.56,
+            "text": " Apart from that, there is no compulsion that every method should be public abstract, but where you want abstract methods, you will have to use the abstract keyword."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 40.56,
+            "end": 42.06,
+            "text": " So this was the method."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 42.06,
+            "end": 48.86,
+            "text": " If we talk about variables, there is no compulsion that all those variables should be public static final."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 48.86,
+            "end": 52.06,
+            "text": " You can have normal variables as well, the value of which can be changed."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 52.06,
+            "end": 54.86,
+            "text": " But in terms of interface, it will not be there later."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 54.86,
+            "end": 58.76,
+            "text": " But remember that normal variables can also be there in the abstract class."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 58.76,
+            "end": 62.66,
+            "text": " And we can write constructors in the abstract class."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 62.66,
+            "end": 65.36,
+            "text": " Now here, actually, the object is not the object of the abstract class."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 65.36,
+            "end": 74.86,
+            "text": " But still, if you remember when we talked about the super, or the inheritance, then there, when you call the construct of a subclass, it calls the construct of superclass as well."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 74.86,
+            "end": 76.16,
+            "text": " Even if it is the abstract class."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 76.16,
+            "end": 77.86,
+            "text": " Now let's focus on the interface."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 77.86,
+            "end": 81.16,
+            "text": " Now the important thing in the interface is that you can remove that object."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 81.16,
+            "end": 88.96,
+            "text": " The common thing is that by default, every method in the interface will be public and abstract."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 88.96,
+            "end": 92.66,
+            "text": " So you cannot have normal methods that are possible in the abstract class."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 92.66,
+            "end": 98.75999999999999,
+            "text": " And all the methods have public abstract, so there is no need to write, but it will work."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 98.75999999999999,
+            "end": 102.86,
+            "text": " And the modified method that we used in public, it works."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 102.86,
+            "end": 112.06,
+            "text": " But then, apart from the public, if you want it to be private, predicted, final, static, synchronized, native, strict, FPO, it is not possible with the methods."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 112.06,
+            "end": 117.56,
+            "text": " And as we discussed earlier, that variables are by default public, static, and final."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 117.56,
+            "end": 122.56,
+            "text": " We cannot use them without using the final, so you cannot change it basically."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 122.56,
+            "end": 125.06,
+            "text": " And as we discussed earlier, there is no constrictor here."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 125.06,
+            "end": 128.46,
+            "text": " And a difference here, in the abstract class, we use extents."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 128.46,
+            "end": 132.46,
+            "text": " If we extend the abstract class, then we use extents there."
+        },
+        {
+            "number": "003",
+            "title": "Abstract Vs Interface ",
+            "start": 132.46,
+            "end": 138.76000000000002,
+            "text": " And in the interface, if we are using a class interface or implementing it, we use implements there."
+        }
+    ]
+}

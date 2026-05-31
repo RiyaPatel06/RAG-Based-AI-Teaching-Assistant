@@ -1,0 +1,39 @@
+{
+    "chunks": [
+        {
+            "number": "000",
+            "title": "OOps Fundamentals Introduction",
+            "start": 0.0,
+            "end": 32.0,
+            "text": " Today we will focus on an object-oriented programming  That's why when we talk about Upp, the full form of Upp is object-oriented programming  We had seen earlier that this concept is a class object and we had seen what is its importance  We are so sure that whatever we have to do in this world is done through objects  For example, if I want to type something, I want a keyboard, if I want to move, I want a mouse, if I want to write, I want a pen"
+        },
+        {
+            "number": "000",
+            "title": "OOps Fundamentals Introduction",
+            "start": 32.0,
+            "end": 48.24,
+            "text": " So all these things are objects  If we want to do this in a virtual world where we do programming, we will need objects there too  And with that object, we get some features  We have to discuss those features  But today our focus will be on these things"
+        },
+        {
+            "number": "000",
+            "title": "OOps Fundamentals Introduction",
+            "start": 48.24,
+            "end": 65.75999999999999,
+            "text": " First we will talk about how objects are made  What is happening behind the scenes?  Of course it is important to know the question after some syntax  We will write what is happening behind the scenes  After that we will focus on instance variable and local variable"
+        },
+        {
+            "number": "000",
+            "title": "OOps Fundamentals Introduction",
+            "start": 65.75999999999999,
+            "end": 82.16,
+            "text": " What is the difference between these two  Apart from this, there is another type of variable called static variable  Which we will see after a few days  And then we will focus on the methods  Behind the scenes, the memory used, the method used, the object used, we will see"
+        },
+        {
+            "number": "000",
+            "title": "OOps Fundamentals Introduction",
+            "start": 82.16,
+            "end": 94.16,
+            "text": " Which is our JVM area  And then we will focus on the concept called method overloading  So on that note, let's start with the day 1 content where we will focus on object creation"
+        }
+    ]
+}

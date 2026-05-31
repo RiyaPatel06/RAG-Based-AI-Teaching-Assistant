@@ -1,0 +1,158 @@
+{
+    "chunks": [
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 0.0,
+            "end": 21.2,
+            "text": " So in this video, let's solve the shadowing problem.  So shadowing problem is that whenever we have two variables,  one is local and one instance, both will be the same.  And we are assigning one to another.  In fact, whenever we use it, it will always give preference to the local variable."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 21.2,
+            "end": 40.760000000000005,
+            "text": " For example, here age and age, both have become local variables.  So the local variable is basically shadowing the instance variable.  So what do we have to solve it?  Look, whenever we see this image, what we have done here is we have two objects.  And then each object has its own value."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 40.760000000000005,
+            "end": 60.92,
+            "text": " For example, the value here is 18, and if I have to assign 25, then these two have different values.  And where should we get this value? With the help of setData.  So basically, setData will also become a stack here,  where that variable will come in.  And then the value here is 18."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 60.92,
+            "end": 77.92,
+            "text": " Of course, two stacks will be here because it will be called twice.  Once we passed 18, the other time we passed 25 here.  So there are two values.  Now we want the value 18 and 25 to be stored in the object.  So it is confirmed that we have to store the data in the object itself."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 77.92,
+            "end": 97.08,
+            "text": " So whenever we are calling age here, it is taking local.  So why not use this object and tell that this age is the instance variable.  What does instance mean? It is an object type.  So how will we tell that this is not local, but an instance variable.  So what can we do here?"
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 97.08,
+            "end": 114.24,
+            "text": " Basically, the reference of this object here is up here.  Let me repeat.  I want the reference of this object here.  So I can say that if I have to create an object here,  it is obj is equal to new student."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 114.24,
+            "end": 131.24,
+            "text": " If I get this object here, I can simply say obj.age.  So you can see that the yellow line here has also gone.  Now it is confirmed that the age is the instance variable.  And it belongs to this object.  This is the mess here."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 131.24,
+            "end": 148.4,
+            "text": " We have two objects here. We have created a new object.  But at least the problem has solved that this is the instance variable.  The problem is that a new object has been created and it has been stored inside it.  We should have done this too.  We want to use the first object."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 148.4,
+            "end": 171.56,
+            "text": " So how will we use this object? How will I get this object here?  To solve this, we have a keyword.  And that inbuilt keyword is called this.  So when I say this.age, it is referring to the current object.  So the object that I have called, for example, when I said obj.setData,"
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 171.56,
+            "end": 190.56,
+            "text": " who has called this object?  Who is obj referring to this object?  For example, in our diagram, this object here is referring to this object.  If I want to use the same object in this method, when it is calling,  I will write this."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 190.56,
+            "end": 212.72,
+            "text": " So this means current object. Who has called this data?  When it calls the second object, it is referring to the second object.  So basically, whatever object is calling the method, it becomes the current object.  And this is how the value will be set.  Let's check once."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 212.72,
+            "end": 228.88,
+            "text": " If I am to score, you can see it worked.  The values have been obtained.  So next time, we will have to do something like this.  If we want to tell a variable instance variable, you can use this keyword.  We have done this for age."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 228.88,
+            "end": 239.88,
+            "text": " We have not done this for name.  So the name is not there.  What if I call the second method here?  Which is setData2.  And I will pass the name in this."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 239.88,
+            "end": 252.04,
+            "text": " Let's say I want to pass the name Navin.  So when I pass this name, of course, there is an error here.  Why did it come?  Because we have not accepted the value here.  So we accept it."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 252.04,
+            "end": 267.04,
+            "text": " So string name.  And whatever name comes from here, it should be set the value.  It should always be Raul.  Raul should always be changed.  So whatever value we have sent here, the Navin sent, it will go and store here."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 267.04,
+            "end": 278.04,
+            "text": " And it will be assigned there in instance variable.  The problem here is that there is no instance yet.  So we will write here this.name.  Now the problem is solved.  Now it has become instance variable."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 278.70000000000005,
+            "end": 291.70000000000005,
+            "text": " But we have done this for one object and we will have to do it for another object.  It will become big.  So here we will do setData2.  And then we will give another name here.  Let's say Kiran."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 291.70000000000005,
+            "end": 309.36,
+            "text": " So here we have basically two objects.  And one name is Navin, the other name is Kiran.  One age is 18, the other is 25.  And we will do this.  Here you can see the name, age, name, age are different values."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 309.36,
+            "end": 328.36,
+            "text": " So whatever we have passed here is assigned here.  So basically we use this keyword.  This means current object.  So basically how we have fixed this shadowing problem with the help of this keyword.  Now is this encapsulation complete?"
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 328.36,
+            "end": 343.02000000000004,
+            "text": " No.  Because this is not structured.  Basically whenever we write a code, it should be able to understand what is the code.  For example here we have written setData1, setData2.  It is being set."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 343.02000000000004,
+            "end": 353.02000000000004,
+            "text": " The name is not good.  What is the meaning of data1?  And second we have set it.  How will we take the value?  We have printed it in the show."
+        },
+        {
+            "number": "003",
+            "title": "Shadowing problem and this keyword",
+            "start": 353.02000000000004,
+            "end": 363.68,
+            "text": " But what if someone wants value?  Someone wants to know age, name, how will it be?  Of course here we cannot take the age name.  So how will we do this?  We will see that in the next video."
+        }
+    ]
+}

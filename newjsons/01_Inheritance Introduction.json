@@ -1,0 +1,144 @@
+{
+    "chunks": [
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 0.0,
+            "end": 29.64,
+            "text": " Hello Friends, Welcome Back  In this video, we will try to know what are the inheritance and how to achieve it  For which I have written a simple program which is right in front of your screen  So, here I have written a class called Human, another class called Student  Although, another class is the main method which is the Java program"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 29.64,
+            "end": 59.08,
+            "text": " Apart from that, we have two classes, one is Human and one is Student  If I ask you a question, is there any link or relationship between student class and human class?  The answer should be No  For now, these two classes are independent, they don't have any relationship with each other  This is an independent class and this is an independent class, there is no relationship"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 59.08,
+            "end": 89.96,
+            "text": " Where I have made a simple property in Human class, feel, instance, variable, property, age, and I have written a behavior, a method called sleep  I have initialized the age and I am printing a simple message, Human needs a good sleep  And the value in the age, I am just printing it in a console  So, basically, there is a basic method and a property in the Human class  And there is nothing in the Student class"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 89.96,
+            "end": 120.68,
+            "text": " And these two classes are different from each other, there is no link and that is an independent class  So, what will I do here? I will make an object of a student  Okay, I have made an object of a student, ST equals to New Student  After making an object of a student, I will do ST.Sleep  Meaning, I am calling the Sleep method here and I am getting an error here"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 120.68,
+            "end": 143.64,
+            "text": " That the method Sleep is undefined  First of all, you are making an object of a student here, okay, we have made an object of a student  After that, you are using its reference to call a Sleep method  Now, tell me, there is no Sleep method in the Student class  That is why we are getting an error here"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 143.64,
+            "end": 168.12,
+            "text": " That you are calling the Sleep method, take the reference of the Student object  Now, there is no Sleep method there, that is why the compiler is giving us an error here  Where is the Sleep method? It is here, it is in the Human class  So, here a message goes that this is a different class or there is no relationship between these two classes  And there is no link"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 168.12,
+            "end": 190.2,
+            "text": " Now, what will I do? I will establish a relationship between these two classes  I will make a relationship and a link, okay  Where you see what exactly will happen  So, I will use a Keyword here, with which whatever error is coming here, that error will go away  That Keyword is Extents, the Keyword of Extents"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 190.2,
+            "end": 215.39999999999998,
+            "text": " And I will write the name of the class, Human  So, the moment you say Extents Human, you see that there is an error here, the compiler is happy  So, what happened in Extents Keyword?  Extents Keyword is used to establish a relationship between two classes  It means, a relationship is formed, in which we say in the simple terms, is our relationship"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 215.48000000000002,
+            "end": 248.6,
+            "text": " Is our relationship, means Student is a Human  Which is called Base class, drive class, super class, sub class, parent class, child class  So, basically what is happening here?  The moment you say Extents Human, in the Human class, whatever properties, methods were, everything has been inherited in this class  That means, first this class and this class were Human and Student Independent classes"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 248.6,
+            "end": 275.23999999999995,
+            "text": " Now, they have been linked with each other and a relationship has been formed between the two classes  And this concept is called Inheritance  The moment you say Extents, whatever is happening in this Human class, properties, behavior  This class is inherited  As a developer, you won't be able to see age and sleep methods from your eyes"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 275.23999999999995,
+            "end": 302.12,
+            "text": " But this is here, because you don't see any error here  Earlier there was an error, now there is no error  Now there is no error, this means that the sleep method is present in the Student class  If the sleep method was not present, then there would be an error, like before we were coming, now there is an error  This is an indication that there is a sleep method here, I will execute it here once before moving forward"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 303.24,
+            "end": 331.32,
+            "text": " You can see here, Human needs a good sleep, 18  Means this output is coming to you, and where is this output, this is the sleep method body, it is in the Human class  Did you make the Human class object here?  Not at all, we made the Student class object, if this is not in the Student class, then how is the output coming?  This is proved here that the sleep method is being inherited in the Student class"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 331.32,
+            "end": 356.84,
+            "text": " And how is it happening?  With the help of Extent Keyword  The moment you say Extent and whatever class name you write here, the properties of that class and methods will come to this class  So you wrote the code here, you are reusing the same code here, you didn't write it here  But as you made the object and called it, it is being executed, that means that sleep is also here"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 356.84,
+            "end": 391.64,
+            "text": " This means that whatever you wrote here, you are reusing the same code here  So this is code reusability, you wrote it once, you are reusing the same code here  So this concept is inheritance  I will tell you a simple definition, it is a process where one class acquiring properties and behavior of another class  This class is acquiring the properties and behavior of this class, and it will come here"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 391.64,
+            "end": 425.32,
+            "text": " This creates a relationship with which we know from the name of Easy Relationship  See, Student is a Human, that is why we call it Easy Relationship, which we call Parent Shell  So from the place where you are acquiring properties, we usually call that class Super Class  Super Class, or we can call it Base Class, or we can call it Parent Class  So all this means that Parent Class, Base Class, Super Class, everyone has the same meaning"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 425.32,
+            "end": 464.44,
+            "text": " So the class you are acquiring properties from, now see here it is called Extent Human  So this class, we can call it Super Class, Base Class, Parent Class  And the class in which you are acquiring properties, in the Student Class, you are acquiring them in the Student Class  So then you can call it Student Class, or we can call it Child Class, or we can call it Sub Class, or we can call it Derived Class  Super Class, Sub Class, Derived Class, or Child Class, all this is the same"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 464.44,
+            "end": 498.44,
+            "text": " The class that is acquiring other things, we call it Child Class, or we can call it Sub Class  Or we can also call it Derived Class  The class you are acquiring, it is our Parent Class, or Base Class, or Super Class  You are going to understand a lot about this, this is not the last video of Inheritance, this is the first video of Inheritance  Where you understood how to relate two classes, and how to achieve Inheritance by using Extent Keyword"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 498.44,
+            "end": 522.2,
+            "text": " Before we move ahead in this topic, let's see its definitions  Of course without any doubt, it is one of the pillars of object oriented  If you call yourself a Java Developer, because Java is an object oriented programming language  It is very important for you to know about Inheritance  It always speaks about code reusability, where you are reusing the code"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 522.2,
+            "end": 551.4,
+            "text": " So of course using Inheritance, productivity of the code can be improved  If you use Inheritance, lines of the code can be reduced to optimize the application  As we understand the concept of these UPS, we will also make a small application  Where you will understand how to use this concept to make our code more efficient and optimized  And of course, how to achieve Inheritance in Java, using the Extent Keyword"
+        },
+        {
+            "number": "000",
+            "title": "Inheritance Introduction",
+            "start": 551.4,
+            "end": 564.6,
+            "text": " This will help you to understand some more things about Inheritance in the coming videos"
+        }
+    ]
+}

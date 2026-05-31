@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+
+Videos/
+audios/
+
+embeddings.joblib
+
+prompt.txt
+response.txt
+
+output.json
+whisper/

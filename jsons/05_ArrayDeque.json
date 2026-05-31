@@ -1,0 +1,1925 @@
+{
+    "video_number": "003",
+    "video_title": "ArrayDeque",
+    "full_transcript": " Hello Friends, Welcome Back! In this video, we are going to talk about the RA-DQ class. The RA-DQ class is like you saw in the collection hierarchy, It implements the DQ interface. And that DQ interface was extending the Q interface. Meaning, all the methods of Q interface came into DQ. And when RA-DQ implements the DQ interface, It implements all the methods of Q interface and all the methods of DQ interface. That's why, it is said that RA-DQ implements both the Q interface and the DQ interface. The first thing that it does is to extend the Q interface. That's why, there will be methods of Q interface and DQ interface in RA-DQ. For example, in the collection, we have to make the object of the classes to use the link-less and the R-L-Less. Similarly, if you want to use RA-DQ here, you will have to make an object of it. AD1 equals to New RA-DQ. Okay, so here I have made it an object. After that, using the reference, AD1 dot, As you will say, you can see here that AD method is taking an object. Then add all. Meaning, you can add another collection here. You can see here that the collection is accepting. You can see here that add first and add last. We don't have a method here, which was in our RA-L-Less and link-less. There, you can add an add method based on the index. So, here there is no option. Based on the index, you can't perform any operation if you are using RA-DQ. The index-based accessing is not allowed here. Okay, so here I will add a data. This is 100. AD1 dot add, 200. And here I will print it, the collection which I have made, RA-DQ's collection. So, here check once. You can see here that 100, 200. So, the data is being added here in the collection. Another very important thing about RA-DQ is that RA-DQ internally follows double ended Q. Which we call RA-DQ. So, it will work like this. Why? In Java, in XE programming, you can perform insertion and deletion operation from one side. You can perform only from one side. Why? For example, you can see that in the real world, if there is a queue to take something, then only people can come from one side in that queue. And no one can come from the middle. Because in the real world, because you are not allowed to come from the middle, even in programming, no one can come from the middle of the index, in their collection. Okay, now here RA-DQ uses double ended Q internally. So, what will happen here? If you have front end and rear end, then you can perform insertion and deletion operation from here also. And you can perform from here also. You can add data from here also. And you can insert data from here also. So, if you are using RA-DQ, because it can use internally double ended Q, then if you want to perform insertion and operation in your collection, whether it is from front end or rear end, then definitely you can use RA-DQ. And there is a light weighted too. Like in English, our notes were created. No notes will be created here. This will work as RA-Dynamic, its data structure. So, you can perform insertion and operation easily here, in your collection, from rear end also and from front end also. From both ends, you can add data here. But the index based axing is not allowed. You cannot add from the middle, because this is also a Q. In Q, you cannot insert data from the middle. It is not allowed here also. Because internally, it is double ended Q, so from front end and rear end, from there you can add data here. Like you saw here also. We have some methods here. AD1.Add Add first and add last. You can see here. I will add some data here. Maybe 10. Add last. AD1.Add Last. You can add any data here. I have added here. Maybe 20. Then you can print your collection. System.out.println Whatever collection I have made in the name of AD1, you can print it here. You can see here, 10 added in front end, and 20 added in front end. You can see here. Another important thing is, I will check if duplicates are allowed. AD1.Add Like you will use AD method, automatically the data will be in the rear end. I will add 200 here. After 200, another 200. There was an object in my collection called 200. I added it once again. I will check if it is adding in the collection. 200, 200, 200, 200 is added. So, if you are using ADQ here, then duplicates are allowed. But if you want to make duplicates object, then you can add it here. I will check some other things here. AD1.Add Here I put string type object. There is no error here. So, whatever data was here, it was the same data. Integer type. So, it was adding. Here, AD I will print my collection once. I will check if the string type of data is adding in the same collection. So, I added it here. And I will try to print whatever is here. I will execute it once. You can see that PW is also adding here. So, it can store both homogenous type of data as well as the heterogeneous type of data. So, here you can add duplicates and mixers. You can add data too. And it will be suitable for you whenever you have to perform insertion operation at the front end and at the rear end. In the beginning or at the end, if you want to add data, then you can use ADQ here. So, here is another important method. You have to observe. Offer method. I will offer something here. Similarly, we have offer offer first and offer last. I will add it at the end. You can add anything. N And maybe, okay. And here AD. offer first. I will add it here. 1. I will print it once. I will check if there are any changes in the collection. So, here as soon as I print it you can see, first it has been added. 500 has also been added. And at the end 10 has also been added. So, the way the ad method is working, the same way the offer method is also working. Like, if you add any data using the ad method, automatically it is added in the rear end of the collection. So, we used the offer method. Before that, it was PW. After that, automatically 500 has been added. For example, the offer last, at the end of the collection, you can see 10. And the offer first, for example, the ad first is working, the same way the offer first is also working here. And one is adding there in the collection. So, for example, ad first and ad last is working. Similarly, the offer first and offer last method is also working. So, what is the difference? The difference is that the offer method you will use, whenever you want to insert any data in your collection, it is not mandatory, it is not compulsory that the data is added in your collection. The high possibility is that whatever you want to add in the data, it will be rejected. For example, if you are attending any company, you have 2 or 3 offers, it will not be that you accept 3 offers. So, I am trying to say that whenever you are offering something, it is not compulsory that you accept the offer, you can also reject the offer. So, here, in the collection, using the offer method, if you try to add some data, then the possibility is that the data is added. And it can also be that the data is not added. The data of the compulsory is added. So, here the offer may get rejected. If you want to use the offer method to perform the insertion operation, you can do it. But it is not that the data will be added. The possibility is that the data is not added. So, we have such data that it is not important. If the data is added in the collection, then it is fine. If the data is not added, then it is fine. So, in this case, you can use the offer method here. The one who will perform the insertion operation, but he can perform the insertion operation and can also not. Offer may get rejected also in case of offer method. The conclusion here is that the DQ interface is directly implemented. The DQ interface is extended. The Q interface is extended. And internally, it follows the double ended Q. This will make it efficient whenever you want to perform the insertion operation at the rear end as well as at the front end. And it is very lightweight. There is no concept of nodes here. And it is dynamic. In nature, the restriction of the index is not at all. And here, the duplicates are also allowed. You can store homogeneous and heterogeneous type of data here. And you can also give the duplicate value here. Index based axing is not allowed here. Because because you can never add any data in the index base. In normal Q, you can add only one end of the data from the rear end. But here, because it is following the double ended Q, you can add data from the rear end. But not from the index base. You cannot add data from the middle. So, this is it. We will try to know more about our RAIDQ collection and other classes.",
+    "chunks": [
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 0.0,
+            "end": 6.88,
+            "text": " Hello Friends, Welcome Back!"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 6.88,
+            "end": 10.9,
+            "text": " In this video, we are going to talk about the RA-DQ class."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 10.9,
+            "end": 14.46,
+            "text": " The RA-DQ class is like you saw in the collection hierarchy,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 14.46,
+            "end": 16.96,
+            "text": " It implements the DQ interface."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 16.96,
+            "end": 20.96,
+            "text": " And that DQ interface was extending the Q interface."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 20.96,
+            "end": 23.78,
+            "text": " Meaning, all the methods of Q interface came into DQ."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 23.78,
+            "end": 28.0,
+            "text": " And when RA-DQ implements the DQ interface,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 28.16,
+            "end": 35.2,
+            "text": " It implements all the methods of Q interface and all the methods of DQ interface."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 35.2,
+            "end": 40.86,
+            "text": " That's why, it is said that RA-DQ implements both the Q interface and the DQ interface."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 40.86,
+            "end": 46.260000000000005,
+            "text": " The first thing that it does is to extend the Q interface."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 46.260000000000005,
+            "end": 53.260000000000005,
+            "text": " That's why, there will be methods of Q interface and DQ interface in RA-DQ."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 53.26,
+            "end": 60.72,
+            "text": " For example, in the collection, we have to make the object of the classes to use the link-less and the R-L-Less."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 60.72,
+            "end": 66.82,
+            "text": " Similarly, if you want to use RA-DQ here, you will have to make an object of it."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 66.82,
+            "end": 71.82,
+            "text": " AD1 equals to New RA-DQ."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 71.82,
+            "end": 75.12,
+            "text": " Okay, so here I have made it an object."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 75.12,
+            "end": 77.62,
+            "text": " After that, using the reference,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 78.08,
+            "end": 80.58,
+            "text": " AD1 dot,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 80.58,
+            "end": 85.78,
+            "text": " As you will say, you can see here that AD method is taking an object."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 85.78,
+            "end": 86.86,
+            "text": " Then add all."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 86.86,
+            "end": 89.38000000000001,
+            "text": " Meaning, you can add another collection here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 89.38000000000001,
+            "end": 92.58000000000001,
+            "text": " You can see here that the collection is accepting."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 92.58000000000001,
+            "end": 95.38000000000001,
+            "text": " You can see here that add first and add last."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 95.38000000000001,
+            "end": 99.88000000000001,
+            "text": " We don't have a method here, which was in our RA-L-Less and link-less."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 99.88000000000001,
+            "end": 104.48,
+            "text": " There, you can add an add method based on the index."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 104.94,
+            "end": 106.94,
+            "text": " So, here there is no option."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 106.94,
+            "end": 112.94,
+            "text": " Based on the index, you can't perform any operation if you are using RA-DQ."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 112.94,
+            "end": 116.14,
+            "text": " The index-based accessing is not allowed here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 116.14,
+            "end": 119.14,
+            "text": " Okay, so here I will add a data."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 119.14,
+            "end": 120.14,
+            "text": " This is 100."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 121.64,
+            "end": 123.14,
+            "text": " AD1 dot add,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 124.14,
+            "end": 125.14,
+            "text": " 200."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 126.14,
+            "end": 131.14000000000001,
+            "text": " And here I will print it, the collection which I have made, RA-DQ's collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 131.14000000000001,
+            "end": 133.14000000000001,
+            "text": " So, here check once."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 134.64,
+            "end": 136.64,
+            "text": " You can see here that 100, 200."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 136.64,
+            "end": 139.64,
+            "text": " So, the data is being added here in the collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 139.64,
+            "end": 142.83999999999997,
+            "text": " Another very important thing about RA-DQ is that"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 142.83999999999997,
+            "end": 146.83999999999997,
+            "text": " RA-DQ internally follows double ended Q."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 146.83999999999997,
+            "end": 148.83999999999997,
+            "text": " Which we call RA-DQ."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 148.83999999999997,
+            "end": 150.83999999999997,
+            "text": " So, it will work like this."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 150.83999999999997,
+            "end": 151.83999999999997,
+            "text": " Why?"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 151.83999999999997,
+            "end": 154.33999999999997,
+            "text": " In Java, in XE programming,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 154.33999999999997,
+            "end": 158.33999999999997,
+            "text": " you can perform insertion and deletion operation from one side."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 158.33999999999997,
+            "end": 160.33999999999997,
+            "text": " You can perform only from one side."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 160.33999999999997,
+            "end": 161.33999999999997,
+            "text": " Why?"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 161.34,
+            "end": 163.34,
+            "text": " For example, you can see that in the real world,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 163.34,
+            "end": 166.34,
+            "text": " if there is a queue to take something,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 166.34,
+            "end": 169.34,
+            "text": " then only people can come from one side in that queue."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 169.34,
+            "end": 171.34,
+            "text": " And no one can come from the middle."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 171.34,
+            "end": 173.34,
+            "text": " Because in the real world,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 173.34,
+            "end": 175.34,
+            "text": " because you are not allowed to come from the middle,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 175.34,
+            "end": 177.34,
+            "text": " even in programming,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 177.34,
+            "end": 179.34,
+            "text": " no one can come from the middle of the index,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 179.34,
+            "end": 181.34,
+            "text": " in their collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 181.34,
+            "end": 187.34,
+            "text": " Okay, now here RA-DQ uses double ended Q internally."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 187.34,
+            "end": 189.34,
+            "text": " So, what will happen here?"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 189.34,
+            "end": 192.34,
+            "text": " If you have front end and rear end,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 192.34,
+            "end": 197.34,
+            "text": " then you can perform insertion and deletion operation from here also."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 197.34,
+            "end": 199.34,
+            "text": " And you can perform from here also."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 199.34,
+            "end": 201.34,
+            "text": " You can add data from here also."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 201.34,
+            "end": 204.34,
+            "text": " And you can insert data from here also."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 204.34,
+            "end": 207.34,
+            "text": " So, if you are using RA-DQ,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 207.34,
+            "end": 211.34,
+            "text": " because it can use internally double ended Q,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 211.34,
+            "end": 215.34,
+            "text": " then if you want to perform insertion and operation in your collection,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 215.34,
+            "end": 218.34,
+            "text": " whether it is from front end or rear end,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 218.34,
+            "end": 220.34,
+            "text": " then definitely you can use RA-DQ."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 220.34,
+            "end": 222.34,
+            "text": " And there is a light weighted too."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 222.34,
+            "end": 226.34,
+            "text": " Like in English, our notes were created."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 226.34,
+            "end": 228.34,
+            "text": " No notes will be created here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 228.34,
+            "end": 230.34,
+            "text": " This will work as RA-Dynamic,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 230.34,
+            "end": 231.34,
+            "text": " its data structure."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 231.34,
+            "end": 235.34,
+            "text": " So, you can perform insertion and operation easily here,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 235.34,
+            "end": 239.34,
+            "text": " in your collection, from rear end also and from front end also."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 239.34,
+            "end": 242.34,
+            "text": " From both ends, you can add data here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 242.34,
+            "end": 244.34,
+            "text": " But the index based axing is not allowed."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 244.34,
+            "end": 246.34,
+            "text": " You cannot add from the middle,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 246.34,
+            "end": 248.34,
+            "text": " because this is also a Q."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 248.34,
+            "end": 252.34,
+            "text": " In Q, you cannot insert data from the middle."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 252.34,
+            "end": 254.34,
+            "text": " It is not allowed here also."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 254.34,
+            "end": 256.34000000000003,
+            "text": " Because internally, it is double ended Q,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 256.34000000000003,
+            "end": 258.34000000000003,
+            "text": " so from front end and rear end,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 258.34000000000003,
+            "end": 260.34000000000003,
+            "text": " from there you can add data here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 260.34000000000003,
+            "end": 262.34000000000003,
+            "text": " Like you saw here also."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 262.34000000000003,
+            "end": 265.34000000000003,
+            "text": " We have some methods here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 266.34000000000003,
+            "end": 268.34000000000003,
+            "text": " AD1.Add"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 268.34000000000003,
+            "end": 270.34000000000003,
+            "text": " Add first and add last."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 270.34000000000003,
+            "end": 272.34000000000003,
+            "text": " You can see here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 272.34000000000003,
+            "end": 274.34000000000003,
+            "text": " I will add some data here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 274.34,
+            "end": 276.34,
+            "text": " Maybe 10."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 276.34,
+            "end": 278.34,
+            "text": " Add last."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 278.34,
+            "end": 280.34,
+            "text": " AD1.Add"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 280.34,
+            "end": 282.34,
+            "text": " Last."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 282.34,
+            "end": 284.34,
+            "text": " You can add any data here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 284.34,
+            "end": 286.34,
+            "text": " I have added here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 286.34,
+            "end": 288.34,
+            "text": " Maybe 20."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 288.34,
+            "end": 290.34,
+            "text": " Then you can print your collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 290.34,
+            "end": 292.34,
+            "text": " System.out.println"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 292.34,
+            "end": 294.34,
+            "text": " Whatever collection I have made in the name of AD1,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 294.34,
+            "end": 296.34,
+            "text": " you can print it here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 298.34,
+            "end": 300.34,
+            "text": " You can see here,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 300.34,
+            "end": 302.34,
+            "text": " 10 added in front end,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 302.34,
+            "end": 304.34,
+            "text": " and 20 added in front end."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 304.34,
+            "end": 306.34,
+            "text": " You can see here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 306.34,
+            "end": 308.34,
+            "text": " Another important thing is,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 308.34,
+            "end": 310.34,
+            "text": " I will check if duplicates are allowed."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 310.34,
+            "end": 312.34,
+            "text": " AD1.Add"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 312.34,
+            "end": 314.34,
+            "text": " Like you will use AD method,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 314.34,
+            "end": 316.34,
+            "text": " automatically the data will be in the rear end."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 316.34,
+            "end": 318.34,
+            "text": " I will add 200 here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 318.34,
+            "end": 320.34,
+            "text": " After 200,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 320.34,
+            "end": 322.34,
+            "text": " another 200."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 322.34,
+            "end": 324.34,
+            "text": " There was an object in my collection called 200."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 324.34,
+            "end": 326.34,
+            "text": " I added it once again."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 326.34,
+            "end": 328.34,
+            "text": " I will check if it is adding in the collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 328.34,
+            "end": 330.34,
+            "text": " 200, 200, 200,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 330.34,
+            "end": 332.34,
+            "text": " 200 is added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 332.34,
+            "end": 334.34,
+            "text": " So, if you are using"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 334.34,
+            "end": 336.34,
+            "text": " ADQ here,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 336.34,
+            "end": 338.34,
+            "text": " then duplicates are allowed."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 338.34,
+            "end": 340.34,
+            "text": " But if you want to make duplicates"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 340.34,
+            "end": 342.34,
+            "text": " object, then you can add it here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 342.34,
+            "end": 344.34,
+            "text": " I will check some other things here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 344.34,
+            "end": 346.34,
+            "text": " AD1.Add"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 346.34,
+            "end": 348.34,
+            "text": " Here I"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 348.34,
+            "end": 350.34,
+            "text": " put string type object."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 350.34,
+            "end": 352.34,
+            "text": " There is no error here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 352.34,
+            "end": 354.34,
+            "text": " So, whatever data was here,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 354.34,
+            "end": 356.34,
+            "text": " it was the same data."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 356.34,
+            "end": 358.34,
+            "text": " Integer type."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 358.34,
+            "end": 360.34,
+            "text": " So, it was adding."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 360.34,
+            "end": 362.34,
+            "text": " Here, AD"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 362.34,
+            "end": 364.34,
+            "text": " I will print my collection once."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 364.34,
+            "end": 366.34,
+            "text": " I will check if the string type of data"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 366.34,
+            "end": 368.34,
+            "text": " is adding in the same collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 368.34,
+            "end": 370.34,
+            "text": " So, I added it here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 370.34,
+            "end": 372.34,
+            "text": " And I will try to print whatever is here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 372.34,
+            "end": 374.34,
+            "text": " I will execute it once."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 376.34,
+            "end": 378.34,
+            "text": " You can see that"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 378.34,
+            "end": 380.34,
+            "text": " PW is also adding here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 380.34,
+            "end": 382.34,
+            "text": " So, it can store"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 382.34,
+            "end": 384.34,
+            "text": " both homogenous type of data"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 384.34,
+            "end": 386.34,
+            "text": " as well as the heterogeneous type of data."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 386.34,
+            "end": 388.34,
+            "text": " So, here you can add duplicates"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 388.34,
+            "end": 390.34,
+            "text": " and mixers."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 390.34,
+            "end": 392.34,
+            "text": " You can add data too."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 392.34,
+            "end": 394.34,
+            "text": " And it will be suitable for you"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 394.34,
+            "end": 396.34,
+            "text": " whenever you have to perform"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 396.34,
+            "end": 398.34,
+            "text": " insertion operation at the front end"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 398.34,
+            "end": 400.34,
+            "text": " and at the rear end."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 400.34,
+            "end": 402.34,
+            "text": " In the beginning or at the end,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 402.34,
+            "end": 404.34,
+            "text": " if you want to add data, then you can use"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 404.34,
+            "end": 406.34,
+            "text": " ADQ here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 406.34,
+            "end": 408.34,
+            "text": " So, here is another important method."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 408.34,
+            "end": 410.34,
+            "text": " You have to observe."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 410.34,
+            "end": 412.34,
+            "text": " Offer method."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 412.34,
+            "end": 414.34,
+            "text": " I will offer something here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 414.34,
+            "end": 416.34,
+            "text": " Similarly,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 416.34,
+            "end": 418.34,
+            "text": " we have"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 418.34,
+            "end": 420.34,
+            "text": " offer"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 420.34,
+            "end": 422.34,
+            "text": " offer first and offer"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 422.34,
+            "end": 424.34,
+            "text": " last. I will add it at the end."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 424.34,
+            "end": 426.34,
+            "text": " You can add anything."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 426.34,
+            "end": 428.34,
+            "text": " N"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 428.34,
+            "end": 430.34,
+            "text": " And maybe,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 430.34,
+            "end": 432.34,
+            "text": " okay. And here"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 432.34,
+            "end": 434.34,
+            "text": " AD."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 434.34,
+            "end": 436.34,
+            "text": " offer"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 436.34,
+            "end": 438.34,
+            "text": " first."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 438.34,
+            "end": 440.34,
+            "text": " I will add it here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 440.34,
+            "end": 442.34,
+            "text": " 1."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 442.34,
+            "end": 444.34,
+            "text": " I will print it once."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 444.34,
+            "end": 446.34,
+            "text": " I will check if there are any changes"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 446.34,
+            "end": 448.34,
+            "text": " in the collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 448.34,
+            "end": 450.34,
+            "text": " So, here as soon as I print it"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 450.34,
+            "end": 452.34,
+            "text": " you can see,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 452.34,
+            "end": 454.34,
+            "text": " first it has been added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 454.34,
+            "end": 456.34,
+            "text": " 500 has also been added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 456.34,
+            "end": 458.34,
+            "text": " And at the end 10 has also been added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 458.34,
+            "end": 460.34,
+            "text": " So, the way the"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 460.34,
+            "end": 462.34,
+            "text": " ad method is working,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 462.34,
+            "end": 464.34,
+            "text": " the same way the offer method is also working."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 464.34,
+            "end": 466.34,
+            "text": " Like, if you add any data using the"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 466.34,
+            "end": 468.34,
+            "text": " ad method, automatically"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 468.34,
+            "end": 470.34,
+            "text": " it is added in the rear end of the collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 470.34,
+            "end": 472.34,
+            "text": " So, we used the offer method."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 472.34,
+            "end": 474.34,
+            "text": " Before that, it was PW."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 474.34,
+            "end": 476.34,
+            "text": " After that, automatically 500 has been added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 476.34,
+            "end": 478.34,
+            "text": " For example, the offer last,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 478.34,
+            "end": 480.34,
+            "text": " at the end of the collection,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 480.34,
+            "end": 482.34,
+            "text": " you can see 10."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 482.34,
+            "end": 484.34,
+            "text": " And the offer first,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 484.34,
+            "end": 486.34,
+            "text": " for example, the ad first is working,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 486.34,
+            "end": 488.34,
+            "text": " the same way the offer first is also working here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 488.34,
+            "end": 490.34,
+            "text": " And one is adding there in the collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 490.34,
+            "end": 492.34,
+            "text": " So, for example,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 492.34,
+            "end": 494.34,
+            "text": " ad first and ad last is working."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 494.34,
+            "end": 496.34,
+            "text": " Similarly, the offer first"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 496.34,
+            "end": 498.34,
+            "text": " and offer last method is also working."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 498.34,
+            "end": 500.34,
+            "text": " So, what is the difference?"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 500.34,
+            "end": 502.34,
+            "text": " The difference is that the"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 502.34,
+            "end": 504.34,
+            "text": " offer method you will use,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 504.34,
+            "end": 506.34,
+            "text": " whenever you want to insert any data"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 506.34,
+            "end": 508.34,
+            "text": " in your collection,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 508.34,
+            "end": 510.34,
+            "text": " it is not mandatory, it is not compulsory"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 510.34,
+            "end": 512.3399999999999,
+            "text": " that the data is added in your collection."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 512.3399999999999,
+            "end": 514.3399999999999,
+            "text": " The high possibility is that"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 514.3399999999999,
+            "end": 516.3399999999999,
+            "text": " whatever you want to add in the data,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 516.3399999999999,
+            "end": 518.3399999999999,
+            "text": " it will be rejected."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 518.3399999999999,
+            "end": 520.3399999999999,
+            "text": " For example, if you are"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 520.3399999999999,
+            "end": 522.3399999999999,
+            "text": " attending any company, you have"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 522.3399999999999,
+            "end": 524.3399999999999,
+            "text": " 2 or 3 offers, it will not be"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 524.3399999999999,
+            "end": 526.3399999999999,
+            "text": " that you accept 3 offers."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 526.34,
+            "end": 528.34,
+            "text": " So, I am trying to say that"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 528.34,
+            "end": 530.34,
+            "text": " whenever you are"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 530.34,
+            "end": 532.34,
+            "text": " offering something, it is not compulsory"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 532.34,
+            "end": 534.34,
+            "text": " that you accept the offer,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 534.34,
+            "end": 536.34,
+            "text": " you can also reject the offer."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 536.34,
+            "end": 538.34,
+            "text": " So, here, in the collection,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 538.34,
+            "end": 540.34,
+            "text": " using the offer method,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 540.34,
+            "end": 542.34,
+            "text": " if you try to add some data,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 542.34,
+            "end": 544.34,
+            "text": " then the possibility is that"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 544.34,
+            "end": 546.34,
+            "text": " the data is added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 546.34,
+            "end": 548.34,
+            "text": " And it can also be that the data is not added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 548.34,
+            "end": 550.34,
+            "text": " The data of the compulsory is added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 550.34,
+            "end": 552.34,
+            "text": " So, here the offer may get rejected."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 552.34,
+            "end": 554.34,
+            "text": " If you want to use the offer method"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 554.34,
+            "end": 556.34,
+            "text": " to perform the insertion operation, you can do it."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 556.34,
+            "end": 558.34,
+            "text": " But it is not that"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 558.34,
+            "end": 560.34,
+            "text": " the data will be added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 560.34,
+            "end": 562.34,
+            "text": " The possibility is that the data is not added."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 562.34,
+            "end": 564.34,
+            "text": " So, we have such data"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 564.34,
+            "end": 566.34,
+            "text": " that it is not important. If the data is added"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 566.34,
+            "end": 568.34,
+            "text": " in the collection, then it is fine."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 568.34,
+            "end": 570.34,
+            "text": " If the data is not added, then it is fine."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 570.34,
+            "end": 572.34,
+            "text": " So, in this case, you can use"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 572.34,
+            "end": 574.34,
+            "text": " the offer method here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 574.34,
+            "end": 576.34,
+            "text": " The one who will perform the insertion operation,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 576.34,
+            "end": 578.34,
+            "text": " but he can perform the insertion operation"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 578.34,
+            "end": 580.34,
+            "text": " and can also not."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 580.34,
+            "end": 582.34,
+            "text": " Offer may get rejected also"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 582.34,
+            "end": 584.34,
+            "text": " in case of offer method."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 584.34,
+            "end": 586.34,
+            "text": " The conclusion here is that"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 586.34,
+            "end": 588.34,
+            "text": " the DQ interface is directly implemented."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 588.34,
+            "end": 590.34,
+            "text": " The DQ interface is extended."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 590.34,
+            "end": 592.34,
+            "text": " The Q interface is extended."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 592.34,
+            "end": 594.34,
+            "text": " And internally, it follows"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 594.34,
+            "end": 596.34,
+            "text": " the double ended Q."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 596.34,
+            "end": 598.34,
+            "text": " This will make it efficient"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 598.34,
+            "end": 600.34,
+            "text": " whenever you want to perform the insertion operation"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 600.34,
+            "end": 602.34,
+            "text": " at the rear end"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 602.34,
+            "end": 604.34,
+            "text": " as well as at the front end."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 604.34,
+            "end": 606.34,
+            "text": " And it is very lightweight."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 606.34,
+            "end": 608.34,
+            "text": " There is no concept of nodes here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 608.34,
+            "end": 610.34,
+            "text": " And it is dynamic. In nature,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 610.34,
+            "end": 612.34,
+            "text": " the restriction of the index is not at all."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 612.34,
+            "end": 614.34,
+            "text": " And here, the duplicates"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 614.34,
+            "end": 616.34,
+            "text": " are also allowed. You can"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 616.34,
+            "end": 618.34,
+            "text": " store homogeneous and heterogeneous type of data"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 618.34,
+            "end": 620.34,
+            "text": " here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 620.34,
+            "end": 622.34,
+            "text": " And you can also give the duplicate value here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 622.34,
+            "end": 624.34,
+            "text": " Index based axing is not allowed here."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 624.34,
+            "end": 626.34,
+            "text": " Because"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 626.34,
+            "end": 628.34,
+            "text": " because you can never add any"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 628.34,
+            "end": 630.34,
+            "text": " data in the index base."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 630.34,
+            "end": 632.34,
+            "text": " In normal Q, you can add"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 632.34,
+            "end": 634.34,
+            "text": " only one end of the data from the rear end."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 634.34,
+            "end": 636.34,
+            "text": " But here, because it is"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 636.34,
+            "end": 638.34,
+            "text": " following the double ended Q,"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 638.34,
+            "end": 640.34,
+            "text": " you can add data from the rear end."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 640.34,
+            "end": 642.34,
+            "text": " But not from the index base."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 642.34,
+            "end": 644.34,
+            "text": " You cannot add data from the middle."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 644.34,
+            "end": 646.34,
+            "text": " So, this is it."
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 646.34,
+            "end": 648.34,
+            "text": " We will try to know more about our"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 648.34,
+            "end": 650.34,
+            "text": " RAIDQ collection"
+        },
+        {
+            "number": "003",
+            "title": "ArrayDeque",
+            "start": 650.34,
+            "end": 652.34,
+            "text": " and other classes."
+        }
+    ]
+}

@@ -1,0 +1,504 @@
+{
+    "video_number": "000",
+    "video_title": "Need of Encapsulation",
+    "full_transcript": " Let's talk about Encapsulation in this video. So basically what we have seen so far is the class, the object, the basics of Java and then we went towards what we have seen as an array and what is static. Now when we talk about Ups, there is a pillar in Ups, or a very important concept which is called encapsulation. So today we will learn what is encapsulation. In fact, this is our topic here. So we will discuss why we need need of encapsulation, what is encapsulation. We will talk about private members, how is their use in encapsulation. And then we will discuss the name of the problem, shadowing problem. How will we solve it with the help of this keyword. And then we will talk about the setters and getters. So the topic is very interesting. And first of all, you have to use encapsulation in your project, it is not compulsory, it is optional. Like you will see that Ups features are all optional features. But what happens is that when we develop Java, we have to implement some features that make our software stable, maintainable and easily built. So there we will use Ups concept, one of which is encapsulation. So before the Encapsulation, we will talk about what we have discussed earlier. So far we have seen what are the static variables. The most important concept is about static. Where we have seen how static variables are used, what are the static methods. How does static block is used. And we have seen how non-static members and static members interact in one class. So now we will focus on Encapsulation. First of all, we have to discuss why we need the concept of Encapsulation. First of all, we have to talk about the object. Every object has some things that it knows and can do. So basically we can say that an object knows something and an object does something. For example, let's say if I am a human, then as a human, I know something and I can do something. In the same way, this keyboard knows something about it. So this keyboard knows the color, so it has a black keyboard. In fact, it is gray with shade. And there are keys in this keyboard, basically a lot of keys. So basically these are the features of the keyboard. But what can we do? We can do a lot of things like we typed something here. So this keyboard will send its value to the computer or the input. We can fake this keyboard with a Gusset, but non-violence. So basically we can give input to the machine. The important thing here is that every object knows something and every object does something. So when I make an object here, this object knows something and this object does something. Now when I say it knows something, it knows the help of variables, which we call properties. And it can do something with the help of methods. So if you want to store a value, what can an object know? We will add it with the help of variables and what can an object do? We will do that with the help of methods. So as I am talking about you, of course as a human we know a lot of things. I know my name, my favourite actor, my address, my bank account number. So all the things are stored here. Of course I can do a lot of things other than this. I can walk, I can write, I can talk. So these are all my behaviours, which we call methods. So basically what I know here, all these things are saved here. So imagine that there are many boxes in my brain and every box has a value. My name is stored in a box, my address is stored in a box, my favourite actor's name is stored in a box. So if you want to know something from me, then of course you will open my brain and not open the values. You will ask me, what is your name, address. So all the data stored here is private, I don't want to public it. And if it is private, then how did it come out here? So I will have to ask you and then I will tell you or I will tell you and show you. For example, if I can talk from the method here, I can write, I can write in a book or I will type. So there are many ways, I can share this information to you. Or we can call it as Damshaas here, I can give you gestures. So basically here these are all my behaviours. So this means that these are all the variables that will work together and all the variables will be private. Private means that they are not directly accessible outside. So here it is written that to the outside world data should not be exposed directly. Which means all your data should be private, no one should access it directly from outside. So when these two will work together, then we will use encapsulation. So when these two will work together, then this concept user which is called encapsulation. Now exactly what happens is we will see in the next video.",
+    "chunks": [
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 0.0,
+            "end": 8.4,
+            "text": " Let's talk about Encapsulation in this video."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 8.4,
+            "end": 13.200000000000001,
+            "text": " So basically what we have seen so far is the class, the object, the basics of Java"
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 13.200000000000001,
+            "end": 17.92,
+            "text": " and then we went towards what we have seen as an array and what is static."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 17.92,
+            "end": 24.8,
+            "text": " Now when we talk about Ups, there is a pillar in Ups, or a very important concept which is called encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 24.8,
+            "end": 27.2,
+            "text": " So today we will learn what is encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 27.2,
+            "end": 29.2,
+            "text": " In fact, this is our topic here."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 29.2,
+            "end": 34.56,
+            "text": " So we will discuss why we need need of encapsulation, what is encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 34.56,
+            "end": 38.56,
+            "text": " We will talk about private members, how is their use in encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 38.56,
+            "end": 41.76,
+            "text": " And then we will discuss the name of the problem, shadowing problem."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 41.76,
+            "end": 44.96,
+            "text": " How will we solve it with the help of this keyword."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 44.96,
+            "end": 48.64,
+            "text": " And then we will talk about the setters and getters."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 48.64,
+            "end": 50.16,
+            "text": " So the topic is very interesting."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 50.16,
+            "end": 56.4,
+            "text": " And first of all, you have to use encapsulation in your project, it is not compulsory, it is optional."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 56.4,
+            "end": 60.0,
+            "text": " Like you will see that Ups features are all optional features."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 60.0,
+            "end": 68.8,
+            "text": " But what happens is that when we develop Java, we have to implement some features that make our software stable,"
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 68.8,
+            "end": 71.75999999999999,
+            "text": " maintainable and easily built."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 71.75999999999999,
+            "end": 75.44,
+            "text": " So there we will use Ups concept, one of which is encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 75.44,
+            "end": 78.96,
+            "text": " So before the Encapsulation, we will talk about what we have discussed earlier."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 78.96,
+            "end": 80.72,
+            "text": " So far we have seen what are the static variables."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 80.72,
+            "end": 82.72,
+            "text": " The most important concept is about static."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 82.72,
+            "end": 86.72,
+            "text": " Where we have seen how static variables are used, what are the static methods."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 86.72,
+            "end": 88.72,
+            "text": " How does static block is used."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 88.72,
+            "end": 94.72,
+            "text": " And we have seen how non-static members and static members interact in one class."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 94.72,
+            "end": 98.72,
+            "text": " So now we will focus on Encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 98.72,
+            "end": 104.72,
+            "text": " First of all, we have to discuss why we need the concept of Encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 104.72,
+            "end": 106.72,
+            "text": " First of all, we have to talk about the object."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 106.72,
+            "end": 110.72,
+            "text": " Every object has some things that it knows and can do."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 110.72,
+            "end": 114.72,
+            "text": " So basically we can say that an object knows something and an object does something."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 114.72,
+            "end": 120.72,
+            "text": " For example, let's say if I am a human, then as a human, I know something and I can do something."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 120.72,
+            "end": 126.72,
+            "text": " In the same way, this keyboard knows something about it."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 126.72,
+            "end": 128.72,
+            "text": " So this keyboard knows the color, so it has a black keyboard."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 128.72,
+            "end": 130.72,
+            "text": " In fact, it is gray with shade."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 130.72,
+            "end": 134.72,
+            "text": " And there are keys in this keyboard, basically a lot of keys."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 134.72,
+            "end": 138.72,
+            "text": " So basically these are the features of the keyboard."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 138.72,
+            "end": 140.72,
+            "text": " But what can we do?"
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 140.72,
+            "end": 144.72,
+            "text": " We can do a lot of things like we typed something here."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 144.72,
+            "end": 148.72,
+            "text": " So this keyboard will send its value to the computer or the input."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 148.72,
+            "end": 152.72,
+            "text": " We can fake this keyboard with a Gusset, but non-violence."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 152.72,
+            "end": 154.72,
+            "text": " So basically we can give input to the machine."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 154.72,
+            "end": 160.72,
+            "text": " The important thing here is that every object knows something and every object does something."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 160.72,
+            "end": 168.72,
+            "text": " So when I make an object here, this object knows something and this object does something."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 168.72,
+            "end": 174.72,
+            "text": " Now when I say it knows something, it knows the help of variables, which we call properties."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 174.72,
+            "end": 178.72,
+            "text": " And it can do something with the help of methods."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 178.72,
+            "end": 182.72,
+            "text": " So if you want to store a value, what can an object know?"
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 182.72,
+            "end": 186.72,
+            "text": " We will add it with the help of variables and what can an object do?"
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 186.72,
+            "end": 188.72,
+            "text": " We will do that with the help of methods."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 188.72,
+            "end": 192.72,
+            "text": " So as I am talking about you, of course as a human we know a lot of things."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 192.72,
+            "end": 198.72,
+            "text": " I know my name, my favourite actor, my address, my bank account number."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 198.72,
+            "end": 201.72,
+            "text": " So all the things are stored here."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 201.72,
+            "end": 203.72,
+            "text": " Of course I can do a lot of things other than this."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 203.72,
+            "end": 207.72,
+            "text": " I can walk, I can write, I can talk."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 207.72,
+            "end": 210.72,
+            "text": " So these are all my behaviours, which we call methods."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 210.72,
+            "end": 214.72,
+            "text": " So basically what I know here, all these things are saved here."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 214.72,
+            "end": 220.72,
+            "text": " So imagine that there are many boxes in my brain and every box has a value."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 220.72,
+            "end": 227.72,
+            "text": " My name is stored in a box, my address is stored in a box, my favourite actor's name is stored in a box."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 227.72,
+            "end": 232.72,
+            "text": " So if you want to know something from me, then of course you will open my brain and not open the values."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 232.72,
+            "end": 237.72,
+            "text": " You will ask me, what is your name, address."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 237.72,
+            "end": 242.72,
+            "text": " So all the data stored here is private, I don't want to public it."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 243.72,
+            "end": 246.72,
+            "text": " And if it is private, then how did it come out here?"
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 246.72,
+            "end": 251.72,
+            "text": " So I will have to ask you and then I will tell you or I will tell you and show you."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 251.72,
+            "end": 259.72,
+            "text": " For example, if I can talk from the method here, I can write, I can write in a book or I will type."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 259.72,
+            "end": 263.72,
+            "text": " So there are many ways, I can share this information to you."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 263.72,
+            "end": 266.72,
+            "text": " Or we can call it as Damshaas here, I can give you gestures."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 266.72,
+            "end": 269.72,
+            "text": " So basically here these are all my behaviours."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 269.72,
+            "end": 277.72,
+            "text": " So this means that these are all the variables that will work together and all the variables will be private."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 277.72,
+            "end": 281.72,
+            "text": " Private means that they are not directly accessible outside."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 281.72,
+            "end": 285.72,
+            "text": " So here it is written that to the outside world data should not be exposed directly."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 285.72,
+            "end": 291.72,
+            "text": " Which means all your data should be private, no one should access it directly from outside."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 291.72,
+            "end": 295.72,
+            "text": " So when these two will work together, then we will use encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 295.72,
+            "end": 299.72,
+            "text": " So when these two will work together, then this concept user which is called encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 299.72,
+            "end": 302.72,
+            "text": " Now exactly what happens is we will see in the next video."
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "chunks": [
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 0.0,
+            "end": 36.0,
+            "text": " Hello Friends, Welcome Back  In the last video, we tried to find out some fundamentals of programming, what is machine level language and what is the need for it  We tried to find out what the compiler works and whenever we write a code, we compile some fundamentals  It was very important to know about all the fundamentals of software engineer  In this video, we will learn about the basics of Java, which is important to know about all the Java developers"
+        },
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 36.0,
+            "end": 74.0,
+            "text": " To start with, Java was released in 1995 for the first time in the industry  It was released in the Alpha and Beta versions and then in the official version in 1995  And this programming language was made by James Gosling and its team  And this project was made by this team, which we know as Green team  Sun Microsystem was a company in California, in the United States"
+        },
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 74.0,
+            "end": 121.0,
+            "text": " In this company, a team was formed, which was called Green team and the lead of that team was James Gosling  All these teams carried out the project of this programming language and officially released it  When this programming language was released, they took major steps which changed the entire destiny of Java  The first major step was to download it freely  They announced that Java is a free language and it doesn't have to pay anything to develop the application"
+        },
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 121.0,
+            "end": 147.0,
+            "text": " This course is totally free of cost  They also announced that it is an object oriented programming language and we will learn about the other features  After that, they took a major step and made it an open source  Open source means that this project can contribute to the development of the programming language  They didn't restrict it in their company"
+        },
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 147.0,
+            "end": 173.0,
+            "text": " They announced that they are ready for programming language  If someone thinks that this feature should be added and it can be made better  They can contribute to this project  Because of which, Java grew in rich in features  Many features were added in Java and from there, Java started using it for application development"
+        },
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 173.0,
+            "end": 206.0,
+            "text": " Apart from this, some major features of Java which you need to know about are  Usually, when we talk about Java, we say that Java is a very simple programming language  It is a very simple programming language and straightforward because it is an object oriented programming language  The programming language that is object oriented is very simple  Of course, some of our viewers would have exposed Java before this"
+        },
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 206.0,
+            "end": 241.0,
+            "text": " Usually, Java is compared with any other programming language by writing the first hello world program  They say that a code is required for Java and it works only with one or two lines  We don't compare with a code of one or two lines  If you have used programming language in all these processes, then you can decide whether it is easy or difficult  The proof of this is that Java has been used for more than two decades in industry"
+        },
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 241.0,
+            "end": 260.0,
+            "text": " Even today, this is a high demand programming language  It is very simple and if it wasn't simple, it would have been used for a while  So, what is object oriented? What is its syntax? What is its style?  We will try to know it today  Along with it, there are important features like portable, platform-independent, and VORA"
+        },
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 260.0,
+            "end": 289.0,
+            "text": " These are also important features of Java which we will try to know briefly  Many other features are called as robust programming languages  Distributed, multi-threaded, which gradually, as we will progress in the course  As you will understand about conceptual Java, you will automatically understand all these things  Of course, in today's time, we will talk about some basic fundamentals of object orientation"
+        },
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 289.0,
+            "end": 304.0,
+            "text": " What is portable, VORA, or platform-independence?  We will try to know about it briefly  So, this is the basics of Java or introduction to Java  We will know about it in the next video  Thank you"
+        },
+        {
+            "number": "004",
+            "title": "Introduction to Java",
+            "start": 306.0,
+            "end": 307.0,
+            "text": " Thank you"
+        }
+    ]
+}

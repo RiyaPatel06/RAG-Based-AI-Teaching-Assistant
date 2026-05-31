@@ -1,0 +1,186 @@
+{
+    "chunks": [
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 0.0,
+            "end": 45.0,
+            "text": " Hello Friends, Welcome back. In this video, we will try to know about relational operators.  To start with, relational operators are double equal to less than, greater than, less than or equal to, greater than or equal to  or not equal to, which we can use to relate in programming. Very often in conditionals, if else  and in loops, we use these operators, which returns a Boolean value.  So, for example, let's write some variables in our case."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 45.0,
+            "end": 79.0,
+            "text": " A is 10, another variable B is 10, another variable C is 20.  Now, I have to compare if A and B have the same value or not.  Then, I can use A is equal to equal to B.  If we write single equal to, then assignment operator is in Java, as you have known, it will assign to the right and left.  And double equal to operator, if you have used it, then it will just compare if it is equal or not."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 79.0,
+            "end": 110.0,
+            "text": " And it will give you the result in true or false, it returns in Boolean value.  So, it will tell whether the Boolean value is true or false.  So, let's say, I will check again, is A less than B.  If A is 10, is 10 less than B, is 10 less than 10, no, then you will get false.  Then we can do this too. Is A less than B, no, false."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 110.0,
+            "end": 142.0,
+            "text": " Then I will say, is A less than C, 10 is in A, 20 is in C, is A less than 20, yes, you will get true.  So, you can do this too. Is A greater than C, is 10 less than C, then 20 is in C.  Is 10 greater than 20, then of course, you will get false.  It returns a Boolean value.  So, we can use it based on some conditions and conditions to traverse in Loops."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 142.0,
+            "end": 165.0,
+            "text": " If else, in today's and tomorrow's videos, where we will try to understand Loops, pattern programs,  and conditionals, often these operators are going to use it in our journey.  You should know it as a basic.  So, another thing is, is A less than or equal to B.  Both the conditions are checked here."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 165.0,
+            "end": 184.0,
+            "text": " If one is satisfied, then you will get true.  Suppose, is A less than B, is A less than B, no, false.  Then it will check, is A equal to B, yes, true.  Then you will get true.  Because A is 10 less than equals to 10."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 184.0,
+            "end": 212.0,
+            "text": " If one of the two conditions is correct, then you will get total overall result.  So, is A less than or equal to C, then 10 is here, 20 is here.  So, is A less than 20, yes, you got true.  Then there is no need to check equal to operator.  I will check here, is A greater than or equal to B."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 212.0,
+            "end": 230.0,
+            "text": " Is A more than B, no, is it equal, yes, true.  If one condition is correct, then you will get true.  Example, you checked here, is A greater than or false.  Wrong, you are checking only one condition.  Here you are checking, is A greater than or equal to B."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 230.0,
+            "end": 253.0,
+            "text": " So, you got true.  Then check again, is A greater than or equal to C, is A more than C, false.  Is A equal to C, false, both of the case here is false.  It is, total result will be false here.  So, we have 10 in A, is 10 greater than or equal to C,"
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 253.0,
+            "end": 275.0,
+            "text": " 20 is in A, is 10 greater than or equal to C, is it equal, no.  So, of course, your output should be false.  Let's practice all the operators in the lab, so that we get it better.  So, I will make some variables here.  I will make some variables."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 275.0,
+            "end": 305.0,
+            "text": " So, I will give here int A equals to 10.  Then I will say int B equals to 10.  Then I will say int T is your type, C equals to maybe 20.  Then I will do here, is A greater than or equal to equal to B.  If it is equal to equal to B, then the result will be in a variable, in the name of result."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 305.0,
+            "end": 324.0,
+            "text": " And you tell me, all these relational operators return boolean value.  So, what should be the type of result?  Boolean value.  It has been stored in the true result.  And I will print it now, system.out.println."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 324.0,
+            "end": 344.0,
+            "text": " I will say, whatever is in the result, print it once and show it.  So, let me just print and show you the output here.  So, if you want, you can write it directly.  System.out.println.  If you just want to see it in your console, you can write it directly."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 344.0,
+            "end": 360.0,
+            "text": " System.out.println.  Tell me, is A less than or equal to B?  So, directly, you will print it in your monitor screen.  It is false, right?  The root is coming from the top."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 360.0,
+            "end": 376.0,
+            "text": " It is false here.  You can print it directly.  I want to tell you that all these relational operators return boolean value.  So, I have stored it in a boolean variable.  Then I am using it again."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 376.0,
+            "end": 393.0,
+            "text": " To print, I will enter the result in the monitor screen.  Then I will write something else.  Is A, maybe, is A greater than B?  Is A greater than B?  You will get false here."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 393.0,
+            "end": 401.0,
+            "text": " I will comment on it.  We don't need it yet.  I will store the result in a variable because it is returning boolean value.  False.  It is correct."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 401.0,
+            "end": 411.0,
+            "text": " Because A is not more than B.  It is wrong.  Is A greater than or equal to B?  True.  True."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 411.0,
+            "end": 421.0,
+            "text": " Because both are losing their condition.  First, I am checking if A is greater than B?  No.  If it is equal, then you will get the result.  True."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 421.0,
+            "end": 437.0,
+            "text": " You will get the result.  True.  You will see that it is true.  So, these are the relational operators that we will use in the upcoming videos.  So that you get a good clarity."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 437.0,
+            "end": 447.0,
+            "text": " You will get the basic result.  So, not equal to.  Is A not equal to B?  Is A greater than B?  No."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 447.0,
+            "end": 455.0,
+            "text": " It is wrong.  You will get false here.  True.  It means that whatever statement you are saying is wrong.  Is A greater than B?"
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 455.0,
+            "end": 461.0,
+            "text": " No.  It is equal.  You are wrong.  You will get false here.  I will write here."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 461.0,
+            "end": 468.0,
+            "text": " Is A greater than C?  Yes.  You are right.  It is true.  Is A greater than C?"
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 468.0,
+            "end": 475.0,
+            "text": " Yes.  It is true.  You see.  It is true.  It is not equal to."
+        },
+        {
+            "number": "003",
+            "title": "Relational Operator",
+            "start": 475.0,
+            "end": 486.0,
+            "text": " There are other very simple operators that we will use in the upcoming videos.  Thank you so much for joining me in the relational operators.  We will meet again in the next video."
+        }
+    ]
+}

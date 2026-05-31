@@ -1,0 +1,109 @@
+{
+    "chunks": [
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 0.0,
+            "end": 27.2,
+            "text": " Let's talk about Encapsulation in this video.  So basically what we have seen so far is the class, the object, the basics of Java  and then we went towards what we have seen as an array and what is static.  Now when we talk about Ups, there is a pillar in Ups, or a very important concept which is called encapsulation.  So today we will learn what is encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 27.2,
+            "end": 44.96,
+            "text": " In fact, this is our topic here.  So we will discuss why we need need of encapsulation, what is encapsulation.  We will talk about private members, how is their use in encapsulation.  And then we will discuss the name of the problem, shadowing problem.  How will we solve it with the help of this keyword."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 44.96,
+            "end": 68.8,
+            "text": " And then we will talk about the setters and getters.  So the topic is very interesting.  And first of all, you have to use encapsulation in your project, it is not compulsory, it is optional.  Like you will see that Ups features are all optional features.  But what happens is that when we develop Java, we have to implement some features that make our software stable,"
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 68.8,
+            "end": 82.72,
+            "text": " maintainable and easily built.  So there we will use Ups concept, one of which is encapsulation.  So before the Encapsulation, we will talk about what we have discussed earlier.  So far we have seen what are the static variables.  The most important concept is about static."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 82.72,
+            "end": 104.72,
+            "text": " Where we have seen how static variables are used, what are the static methods.  How does static block is used.  And we have seen how non-static members and static members interact in one class.  So now we will focus on Encapsulation.  First of all, we have to discuss why we need the concept of Encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 104.72,
+            "end": 126.72,
+            "text": " First of all, we have to talk about the object.  Every object has some things that it knows and can do.  So basically we can say that an object knows something and an object does something.  For example, let's say if I am a human, then as a human, I know something and I can do something.  In the same way, this keyboard knows something about it."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 126.72,
+            "end": 140.72,
+            "text": " So this keyboard knows the color, so it has a black keyboard.  In fact, it is gray with shade.  And there are keys in this keyboard, basically a lot of keys.  So basically these are the features of the keyboard.  But what can we do?"
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 140.72,
+            "end": 160.72,
+            "text": " We can do a lot of things like we typed something here.  So this keyboard will send its value to the computer or the input.  We can fake this keyboard with a Gusset, but non-violence.  So basically we can give input to the machine.  The important thing here is that every object knows something and every object does something."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 160.72,
+            "end": 186.72,
+            "text": " So when I make an object here, this object knows something and this object does something.  Now when I say it knows something, it knows the help of variables, which we call properties.  And it can do something with the help of methods.  So if you want to store a value, what can an object know?  We will add it with the help of variables and what can an object do?"
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 186.72,
+            "end": 203.72,
+            "text": " We will do that with the help of methods.  So as I am talking about you, of course as a human we know a lot of things.  I know my name, my favourite actor, my address, my bank account number.  So all the things are stored here.  Of course I can do a lot of things other than this."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 203.72,
+            "end": 227.72,
+            "text": " I can walk, I can write, I can talk.  So these are all my behaviours, which we call methods.  So basically what I know here, all these things are saved here.  So imagine that there are many boxes in my brain and every box has a value.  My name is stored in a box, my address is stored in a box, my favourite actor's name is stored in a box."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 227.72,
+            "end": 251.72,
+            "text": " So if you want to know something from me, then of course you will open my brain and not open the values.  You will ask me, what is your name, address.  So all the data stored here is private, I don't want to public it.  And if it is private, then how did it come out here?  So I will have to ask you and then I will tell you or I will tell you and show you."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 251.72,
+            "end": 277.72,
+            "text": " For example, if I can talk from the method here, I can write, I can write in a book or I will type.  So there are many ways, I can share this information to you.  Or we can call it as Damshaas here, I can give you gestures.  So basically here these are all my behaviours.  So this means that these are all the variables that will work together and all the variables will be private."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 277.72,
+            "end": 299.72,
+            "text": " Private means that they are not directly accessible outside.  So here it is written that to the outside world data should not be exposed directly.  Which means all your data should be private, no one should access it directly from outside.  So when these two will work together, then we will use encapsulation.  So when these two will work together, then this concept user which is called encapsulation."
+        },
+        {
+            "number": "000",
+            "title": "Need of Encapsulation",
+            "start": 299.72,
+            "end": 302.72,
+            "text": " Now exactly what happens is we will see in the next video."
+        }
+    ]
+}
